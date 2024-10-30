@@ -30,7 +30,7 @@
         <configuration>
           <transformers>
             <transformer>
-              <mainClass>Training.Main</mainClass>
+              <mainClass>Training.Server</mainClass>
             </transformer>
           </transformers>
           <filters>

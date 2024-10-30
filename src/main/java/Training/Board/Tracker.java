@@ -1,4 +1,4 @@
-package Training;
+package Training.Board;
 
 /*
 *This interface will be used by the maze and the stone
@@ -6,6 +6,10 @@ package Training;
 *
 */
 public interface Tracker {
+    int STEP = 2;
 
-
+    int goUp(int y);
+    int goDown(int y);
+    int goLeft(int x);
+    int goRight(int x);
 }

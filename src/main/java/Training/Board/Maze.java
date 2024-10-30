@@ -1,6 +1,6 @@
-package Training;
+package Training.Board;
 
-public class maze {
+public class Maze {
     int wall; //A difference between two values that is greater than 2
     int corner; //A pair of co-ordinates
     int middlePosition;

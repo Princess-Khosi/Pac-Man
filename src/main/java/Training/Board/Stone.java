@@ -1,9 +1,9 @@
-package Training;
+package Training.Board;
 
 public class Stone implements Tracker{
 
-    final int verticalMovement;
-    final int horizontalMovement;
+    int verticalMovement;
+    int horizontalMovement;
 
     public Stone(int UpDown, int LeftRight){
         verticalMovement = UpDown;
@@ -18,12 +18,4 @@ public class Stone implements Tracker{
         return horizontalMovement;
     }
 
-
-    public int moveHorizontally(){
-        return 0;
-    }
-
-    public int moveVertically(){
-        return 0;
-    }
 }
