@@ -1,35 +1,36 @@
 package Training.Board;
 
+
 public class Maze {
-    int wall; //A difference between two values that is greater than 2
-    int corner; //A pair of co-ordinates
-    int middlePosition;
+    Stone wall; //A difference between two values that is greater than 2
+    Stone corner; //A pair of co-ordinates
+    final int boardSpan = 100;
 
     public int getMiddlePosition() {
-        return middlePosition;
-    }
-
-    public void setMiddlePosition(int middlePosition) {
-        this.middlePosition = middlePosition;
+        return boardSpan;
     }
 
     public void crashWall() {
 
     }
 
-    public int getCorner() {
+    public Stone getCorner() {
         return corner;
     }
 
-    public void setCorner(int corner) {
+    public void setCorner(Stone corner) {
         this.corner = corner;
     }
 
-    public int getWall() {
+    public Stone getWall() {
         return wall;
     }
 
-    public void setWall(int wall) {
+    public void setWall(Stone wall) {
         this.wall = wall;
+    }
+
+    public static void display(){
+        String just = "nothing";
     }
 }
