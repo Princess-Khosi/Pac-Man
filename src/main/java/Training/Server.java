@@ -26,7 +26,7 @@ public class Server {
 
     public Server(Io io) {
         if (io == null) throw new RuntimeException();
-        this.playingBoard = new Maze();
+//        this.playingBoard = new Maze();
         this.inputOutput = io;
     }
 
@@ -53,7 +53,7 @@ public class Server {
             case 2:
             case 3:
             case 4:
-                Maze.display();
+//                Maze.display();
                 return false;
             case 5:
                 return true;
